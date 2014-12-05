@@ -1,45 +1,74 @@
 body {
   background-color: black;
   padding-top: 70px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-/*
 nav {
   background-color: white;
   position:fixed;
   top:0px;
   width:100%;
+  font-size: 13px;
+  font-weight: 500;
+  height:50px;
+}
 
+a {
+  color: #2A96BD
+}
+
+h3 {
+  color: #66757f;
 }
 
 nav li {
   float:left;
-  margin-left:10px;
+  margin-left:20px;
   padding:10px;
+  border-bottom: 7px solid white;
+}
+
+nav li:hover {
+  border-bottom: 7px solid #2A96BD;
 }
 
 nav li a {
   text-decoration:none;
-  color:black;
+  color: #66757f;
+  display:block;
+  margin-top:10px;
 }
 
 aside {
-  width:290px;
+  width: 230px;
   background-color:white;
   border-radius:10px;
+  margin-left: 10px;
+}
+
+input {
+  padding: 5px 27px 6px 12px;
+  height: 20px;
+  font-size: 12px;
+  background-color: #f5f8fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 21px;
+  float:right;
+  margin-top:9px;
 }
 
 #userdash {
   height:200px;
-  position: relative;
-  margin-top: 50px;
+  padding: 15px;
 }
 
 #trends {
   height:250px;
   margin-top: 15px;
+  padding: 15px;
 }
 
 #whotofollow {
   margin-top: 15px;
-}*/
+}
