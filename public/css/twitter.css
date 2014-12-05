@@ -42,7 +42,7 @@ nav li a {
 
 aside {
   width: 230px;
-  background-color:white;
+  
   border-radius:10px;
   margin-left: 10px;
 }
@@ -61,12 +61,27 @@ input {
 #userdash {
   height:200px;
   padding: 15px;
+  background-image: url(https://pbs.twimg.com/profile_banners/89914516/1407695204/600x200);
+  background-size: 100%;
+  border-bottom: 1px solid #e1e8ed;
+  height: 95px;
+  border-radius: 4px 4px 0 0;
+  background-position: 0 50%;
+  width: 100%;
+  padding: 0 1px;
+  margin-left: -1px;
+  margin-top: -1px;
 }
 
 #trends {
   height:250px;
   margin-top: 15px;
   padding: 15px;
+  background-color:white;
+}
+
+#trends li {
+  padding-top: 4px;
 }
 
 #whotofollow {
