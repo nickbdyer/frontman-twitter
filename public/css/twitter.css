@@ -58,8 +58,23 @@ input {
   margin-top:9px;
 }
 
-#userdash {
-  height:200px;
+aside #container {
+  float: left;
+  width: 290px;
+  display: block;
+}
+
+aside #userdash {
+  border: 1px solid #e1e8ed;
+  background: #FFF;
+  border-radius: 6px;
+  display: block;
+}
+
+
+#userdash a {
+  background-color: #2A96BD !important;
+  height: 200px;
   padding: 15px;
   background-image: url(https://pbs.twimg.com/profile_banners/89914516/1407695204/600x200);
   background-size: 100%;
@@ -71,6 +86,8 @@ input {
   padding: 0 1px;
   margin-left: -1px;
   margin-top: -1px;
+  display: block!important;
+  background: transparent;
 }
 
 #trends {
