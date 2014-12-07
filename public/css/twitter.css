@@ -40,13 +40,6 @@ nav li a {
   margin-top:10px;
 }
 
-aside {
-  width: 230px;
-  
-  border-radius:10px;
-  margin-left: 10px;
-}
-
 input {
   padding: 5px 27px 6px 12px;
   height: 20px;
@@ -58,36 +51,35 @@ input {
   margin-top:9px;
 }
 
-aside #container {
+aside#container {
   float: left;
-  width: 290px;
   display: block;
+  width: 230px;
+  margin: 0px 0px 0px 10px;
 }
 
-aside #userdash {
+aside#userdash {
   border: 1px solid #e1e8ed;
   background: #FFF;
   border-radius: 6px;
   display: block;
+
 }
 
-
-#userdash a {
-  background-color: #2A96BD !important;
-  height: 200px;
-  padding: 15px;
+a#picture {
   background-image: url(https://pbs.twimg.com/profile_banners/89914516/1407695204/600x200);
   background-size: 100%;
-  border-bottom: 1px solid #e1e8ed;
-  height: 95px;
-  border-radius: 4px 4px 0 0;
-  background-position: 0 50%;
+  display: block!important;
+  padding: 15px;
   width: 100%;
+  background-position: 0 50%;
+  height: 95px;
   padding: 0 1px;
   margin-left: -1px;
   margin-top: -1px;
-  display: block!important;
-  background: transparent;
+  border-bottom: 1px solid #e1e8ed;
+  border-radius: 4px 4px 0 0;
+  background-color: #2A96BD !important;
 }
 
 #trends {
@@ -95,6 +87,8 @@ aside #userdash {
   margin-top: 15px;
   padding: 15px;
   background-color:white;
+    width: 230px;
+
 }
 
 #trends li {
