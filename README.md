@@ -1,5 +1,7 @@
 #FrontMan Challenge
 
+[![Code Climate](https://codeclimate.com/github/nickbdyer/frontman-twitter/badges/gpa.svg)](https://codeclimate.com/github/nickbdyer/frontman-twitter)
+
 Week 6 at Makers Academy
 
 ###The Challenge
